@@ -25,29 +25,57 @@
     </header>
     <main>
         <h1 class="titulo"> CARRITO </h1>
-        <section class="carrito">
+        <div class="carrito">
             <div class="fondo">
-                <img class="carrito__imagen1" src="../Assets/perchero magenta.jpg" alt="producto">
-                <div class="fondo__primerparte">
-                    <p class="fondo__primerparte__c">Estante para tazas</p>
-                    <p class="fondo__primerparte__c">$1400</p>
+                <div class="productos">
+                        <h2>Valor total: $8500</h2>
+                        <ul>
+                            <li class="producto" >
+                                <div class="imag">
+                                    <img alt='producto' src="../Assets/perchero internet.webp"/>
+                                </div>
+                                <div class="cantidadAgregada"> 
+                                    <span class="badge rounded-pill bg-secondary">2</span>
+                                </div>
+                                <div class="nombre">
+                                    <h4>Perchero Premium</h4>
+                                </div>
+                                <div class="valor">
+                                    <p>Unidad: $1400</p>
+                                </div>
+                                <div class="ekizde">
+                                    <button>X</button>                                    
+                                </div>
+                            </li>
+                            <li class="producto" >
+                                <div class="imag">
+                                    <img alt='producto' src="../Assets/perchero magenta.jpg"/>
+                                </div>
+                                <div class="cantidadAgregada"> 
+                                    <span class="badge rounded-pill bg-secondary">3</span>
+                                </div>
+                                <div class="nombre">
+                                    <h4>Perchero Magenta</h4>
+                                </div>
+                                <div class="valor">
+                                    <p>Unidad: $1900</p>
+                                </div>
+                                <div class="ekizde">
+                                    <button>X</button>                                    
+                                </div>
+                            </li>
+                        </ul>
                 </div>
-                <div class="fondo__segundaparte">
-                    <p class="fondo__segundaparte__c">TOTAL</p>
-                    <p class="fondo__segundaparte__c">$1400</p>
+                <div class="botones">
+                    <form class="encuesta__opciones" action="" method=”post” enctype=”multipart/form”>
+                        <Input class="encuesta" type=”text” placeholder="País"> 
+                        <Input class="encuesta" type=”text” placeholder="Provincia"> 
+                        <Input class="encuesta" type=”number” placeholder="Código Postal"> 
+                        <button class="encuesta">Calcular envío</button>     
+                    </form>    
+                    <button class='compra'>COMPRAR AHORA</button>                        
                 </div>
-            </div>
-        </section>
-        <section class="encuesta">
-                <form class="encuesta__opciones" action=”validad.php” method=”post” enctype=”multipart/form”></form>
-                    <Input class="encuesta__opciones__pais" type=”text” placeholder=País> 
-                    <Input class="encuesta__opciones__pais" type=”text” placeholder=Provincia> 
-                    <Input class="encuesta__opciones__pais" type=”number” placeholder=Código Postal> 
-                    <Input class="encuesta__opciones__pais" type=”text” placeholder=Calcular> 
-        </section>
-        <div>
-            <p class="calcularenvio"> Calcular Envío </p>
-            <button class='compra'>COMPRAR AHORA</button>
+            </div>    
         </div>
     </main>
     <footer class="pie">            

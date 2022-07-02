@@ -177,12 +177,18 @@ body {
   display: flex;
 }
 .nosotross .container .ubicacion .imagen {
-  margin: 40px;
+  margin-top: 70px;
 }
 .nosotross .container .ubicacion .imagen img {
   width: 550px;
   height: 370px;
   border: dotted rgb(139, 133, 122) 8px;
+}
+.nosotross .container .ubicacion .imagen .irefrime {
+  width: 550px;
+  height: 370px;
+  margin-top: 10px;
+  margin-right: 15px;
 }
 .nosotross .container .ubicacion .texto {
   margin-top: 45px;
@@ -214,7 +220,7 @@ body {
   margin-bottom: 100px;
 }
 .productoss .productos .productos__precios__1 {
-  font-size: 40px;
+  font-size: 35px;
   margin-left: 50px;
   margin-top: 180px;
   text-decoration: dashed black;
@@ -234,7 +240,7 @@ body {
 }
 .productoss .productos .productos__ofertas__1 {
   margin-top: 400px;
-  font-size: 40px;
+  font-size: 35px;
   margin-right: 50px;
   text-decoration: dashed black;
   text-shadow: 2px 2px 2px rgb(179, 83, 83);
@@ -246,58 +252,88 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.carritoo .fondo {
+.carritoo .carrito .fondo {
   background-image: url(http://www.solofondos.com/wp-content/uploads/2015/11/fondocolores.gif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
-  width: 50%;
-  display: flex;
-  margin-left: 24%;
+  height: 650px;
+  width: 80%;
+  margin-left: 11.5%;
+  margin-top: 5.5%;
 }
-.carritoo .fondo .carrito__imagen1 {
-  width: 200px;
-  height: 200px;
-  margin-right: 25px;
-  border: 3px solid black;
-}
-.carritoo .fondo .primerparte {
-  flex-direction: column;
-}
-.carritoo .fondo .primerparte .fondo__primerparte__c {
-  font-size: 22px;
+.carritoo .carrito .fondo .productos h2 {
+  float: right;
+  margin-right: 22.2%;
+  margin-top: 4%;
+  text-shadow: 1px 1px 2px rgb(194, 145, 250);
   color: rgb(139, 133, 122);
 }
-.carritoo .fondo .segundaparte {
-  flex-direction: column;
+.carritoo .carrito .fondo .productos ul {
+  padding-top: 8%;
+  padding-right: 2%;
 }
-.carritoo .fondo .segundaparte .fondo__segundaparte__c {
-  font-size: 22px;
-  color: rgb(139, 133, 126);
+.carritoo .carrito .fondo .productos ul .producto {
+  text-decoration: none;
+  display: flex;
+  width: 850px;
+  height: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: rgb(233, 192, 226);
+  border: double 1px rgb(216, 176, 243);
 }
-.carritoo .fondo .encuesta__opciones {
-  background-color: rgb(248, 247, 247);
-  width: 600px;
-  height: 100px;
-  margin-left: 200px;
+.carritoo .carrito .fondo .productos ul .producto .imag {
+  margin-left: 15px;
 }
-.carritoo .fondo .encuesta__opciones__pais {
-  font-style: oblique;
-  width: 90px;
-  height: 20px;
-  margin-left: 50px;
+.carritoo .carrito .fondo .productos ul .producto .imag img {
+  width: 97px;
+  height: 97px;
 }
-.carritoo .fondo .comprarahora {
-  width: 300px;
-  height: 80px;
+.carritoo .carrito .fondo .productos ul .producto .nombre {
+  margin-left: 70px;
+  margin-top: 32.5px;
+  width: 510px;
 }
-.carritoo .fondo .compra {
-  color: whitesmoke;
+.carritoo .carrito .fondo .productos ul .producto .nombre h4 {
   font-size: 25px;
-  padding: 10px;
-  background-color: palevioletred;
-  text-align: center;
+}
+.carritoo .carrito .fondo .productos ul .producto .valor {
+  width: 620px;
+  margin-left: 100px;
+  margin-top: 28.7px;
+}
+.carritoo .carrito .fondo .productos ul .producto .valor p {
+  font-size: 25px;
+}
+.carritoo .carrito .fondo .productos ul .producto .cantidadAgregada {
+  font-size: 25px;
+}
+.carritoo .carrito .fondo .productos ul .producto .ekizde {
+  margin: 25px 25px 25px 25px;
+}
+.carritoo .carrito .fondo .productos ul .producto .ekizde button {
+  font-size: 30px;
+  background-color: transparent;
+  border: 0px;
+}
+.carritoo .carrito .fondo .botones .encuesta__opciones {
+  margin-top: 3%;
+  margin-left: 25%;
+}
+.carritoo .carrito .fondo .botones .encuesta__opciones .encuesta {
+  margin-left: 2%;
+}
+.carritoo .carrito .fondo .botones .compra {
+  border-radius: 50px;
+  padding: 12px;
+  background-color: rgb(233, 192, 226);
+  margin-left: 67.2%;
+  margin-top: 3.5%;
+}
+.carritoo .pie {
+  margin-top: 200px;
 }
 
 .iniciarSesionn {
@@ -310,7 +346,7 @@ body {
   margin-top: 100px;
   width: 26%;
   height: 640px;
-  border: rgb(110, 105, 105) dotted 15px;
+  border: rgb(110, 105, 105) dotted 5px;
   background-color: rgb(126, 131, 134);
 }
 .iniciarSesionn .inicio .inicios {
@@ -328,7 +364,7 @@ body {
   margin-top: 300px;
 }
 
-@media (min-width: 390px) and (max-width: 844px) {
+@media (min-width: 390px) and (max-width: 767px) {
   body {
     width: 100vw;
   }
@@ -374,26 +410,429 @@ body {
     background-repeat: repeat;
     background-size: cover;
   }
+  .ofertass .ofertas .ofertas1 .ofertas__planta {
+    width: 150px;
+    height: 150px;
+    margin-left: 17.5%;
+  }
+  .ofertass .ofertas .ofertas1 .ofertas__p1 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .ofertass .ofertas .ofertas2 .oferta__magenta {
+    width: 150px;
+    height: 150px;
+    margin-left: 15.5%;
+    margin-top: 230px;
+  }
+  .ofertass .ofertas .ofertas2 .ofertas2--ofertas__p2 {
+    font-size: 15px;
+    margin-left: 10.5%;
+    text-align: center;
+    padding-right: 15px;
+  }
 
-  .productoss .titulo__productos {
+  .seccionvideo {
+    height: 100vh;
+  }
+  .seccionvideo .ofertas__titulo {
+    font-size: 15px;
+    padding: auto;
+  }
+  .seccionvideo .video {
+    width: 300px;
+    margin-left: 8.5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+  }
+
+  .nosotross .titulo {
+    font-size: 25px;
+  }
+  .nosotross .container .ubicacion {
+    margin: 5px 3px 0px 0px;
+  }
+  .nosotross .container .ubicacion .imagen {
+    margin: 10px;
+  }
+  .nosotross .container .ubicacion .imagen img {
+    width: 150px;
+    height: 180px;
+    margin-top: 105px;
+    margin-left: 10px;
+  }
+  .nosotross .container .ubicacion .imagen .irefrime {
+    width: 150px;
+    height: 160px;
+    margin-top: 90px;
+  }
+  .nosotross .container .ubicacion .texto .h2 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .nosotross .container .ubicacion .texto p {
+    font-size: 15px;
+  }
+  .nosotross .container hr {
+    margin-top: 115px;
+    margin-bottom: 115px;
+  }
+
+  .productoss .titulo {
     text-align: center;
     text-shadow: 2px 2px 2px rgb(179, 83, 83);
     color: rgb(139, 133, 122);
     padding-right: 0.5px;
     padding-top: 10px;
+    font-size: 55px;
   }
-  .productoss .carrousel {
+  .productoss .productos .carrousel {
+    width: 100%;
+    height: 5%;
+  }
+  .productoss .productos .img {
+    height: 1rem;
+  }
+  .productoss .productos .productos__precios__1 {
+    font-size: 0px;
+  }
+  .productoss .productos .productos__ofertas__1 {
+    font-size: 0px;
+  }
+
+  .carritoo {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/884/546/non_2x/abstract-grunge-decorative-blue-dark-wall-background-dark-blue-concrete-backgrounds-with-rough-texture-dark-wallpaper-space-for-text-use-for-decorative-design-web-page-banner-frames-wallpaper-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carritoo .carrito .fondo {
+    background-image: url(http://www.solofondos.com/wp-content/uploads/2015/11/fondocolores.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
     width: 80%;
-    height: 2%;
+    margin-left: 11.5%;
+    margin-top: 5.5%;
   }
-  .productoss .img {
-    height: 5rem;
+  .carritoo .carrito .fondo .productos h2 {
+    float: right;
+    margin-right: 3.2%;
+    margin-top: 4%;
+    text-shadow: 1px 1px 2px rgb(194, 145, 250);
+    color: rgb(139, 133, 122);
   }
-  .productoss .productos__precios__1 {
+  .carritoo .carrito .fondo .productos ul {
+    padding-top: 21%;
+    padding-right: 2%;
+  }
+  .carritoo .carrito .fondo .productos ul .producto {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: max-content;
+    margin-left: 0px;
+    margin-right: 20%;
+    margin-top: 10px;
+    background-color: rgb(233, 192, 226);
+    border: double 1px rgb(216, 176, 243);
+  }
+  .carritoo .carrito .fondo .productos ul .producto .imag {
+    margin-left: 15px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .imag img {
+    width: 130%;
+    height: 100%;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .nombre {
+    margin-left: 8%;
+    margin-top: 32.5px;
+    width: 30%;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .nombre h4 {
+    font-size: 12px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .valor {
+    width: 12%;
+    margin-left: 10%;
+    margin-top: 28.7px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .valor p {
+    font-size: 12px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .cantidadAgregada {
+    font-size: 12px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .ekizde {
+    margin: 25px 25px 25px 25px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .ekizde button {
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+  }
+  .carritoo .carrito .fondo .botones .encuesta__opciones {
+    margin-top: 3%;
+    margin-left: 25%;
+  }
+  .carritoo .carrito .fondo .botones .encuesta__opciones .encuesta {
+    margin: 2%;
+  }
+  .carritoo .carrito .fondo .botones .compra {
+    border-radius: 50px;
+    padding: 12px;
+    background-color: rgb(233, 192, 226);
+    margin-left: 25.2%;
+    margin-top: 7.5%;
+  }
+
+  .iniciarSesionn .titulo {
+    font-size: 55px;
+  }
+  .iniciarSesionn .inicio {
+    width: 70%;
+    height: 500px;
+    margin-top: 50px;
+  }
+  .iniciarSesionn .inicio .inicios {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1434px) {
+  body {
+    width: 100vw;
+  }
+
+  .cabecera .cabecera__imagen {
+    width: 57px;
+    height: 57px;
+    margin-left: 11%;
+  }
+  .cabecera .cabecera__navegación__link {
+    font-size: 22.3px;
+    padding-top: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+    float: none;
+    display: inline;
+  }
+  .cabecera .cabecera__imagen2 {
+    width: 0px;
+    height: 0px;
+  }
+
+  .pie {
+    height: 18.2vh;
+  }
+  .pie .pie__título {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .pie .pie__wpp {
+    margin-left: 1%;
+    width: 20px;
+    height: 30px;
+  }
+  .pie .pie__ig {
+    width: 20px;
+    height: 30px;
+    margin-left: 1%;
+  }
+
+  .ofertass {
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/1006/72/31/black-wood-hd-wallpaper-wallpaper-preview.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .ofertass .ofertas .ofertas1 .ofertas__planta {
+    width: 150px;
+    height: 150px;
+    margin-left: 35.5%;
+  }
+  .ofertass .ofertas .ofertas1 .ofertas__p1 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .ofertass .ofertas .ofertas2 .oferta__magenta {
+    width: 150px;
+    height: 150px;
+    margin-left: 33.5%;
+    margin-top: 230px;
+  }
+  .ofertass .ofertas .ofertas2 .ofertas2--ofertas__p2 {
+    font-size: 15px;
+    margin-left: 10.5%;
+    text-align: center;
+    padding-right: 15px;
+  }
+
+  .seccionvideo {
+    height: 100vh;
+  }
+  .seccionvideo .ofertas__titulo {
+    font-size: 20px;
+    padding: auto;
+  }
+  .seccionvideo .video {
+    width: 300px;
+    margin-left: 29.5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+  }
+
+  .nosotross .titulo {
+    font-size: 35px;
+    margin-bottom: 75px;
+  }
+  .nosotross .container .ubicacion {
+    margin: 5px 3px 0px 0px;
+  }
+  .nosotross .container .ubicacion .imagen {
+    margin: 10px;
+  }
+  .nosotross .container .ubicacion .imagen img {
+    width: 280px;
+    height: 280px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .nosotross .container .ubicacion .imagen .irefrime {
+    width: 280px;
+    height: 280px;
+    margin-top: 20px;
+  }
+  .nosotross .container .ubicacion .texto .h2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
+  .nosotross .container .ubicacion .texto p {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  .nosotross .container hr {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .productoss .titulo {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(179, 83, 83);
+    color: rgb(139, 133, 122);
+    padding-right: 0.5px;
+    padding-top: 10px;
+    font-size: 35px;
+  }
+  .productoss .productos .carrousel {
+    width: 100%;
+    height: 5%;
+  }
+  .productoss .productos .img {
+    height: 1rem;
+  }
+  .productoss .productos .productos__precios__1 {
     font-size: 0px;
   }
-  .productoss .productos__ofertas__1 {
+  .productoss .productos .productos__ofertas__1 {
     font-size: 0px;
+  }
+
+  .carritoo {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/884/546/non_2x/abstract-grunge-decorative-blue-dark-wall-background-dark-blue-concrete-backgrounds-with-rough-texture-dark-wallpaper-space-for-text-use-for-decorative-design-web-page-banner-frames-wallpaper-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carritoo .carrito .fondo {
+    background-image: url(http://www.solofondos.com/wp-content/uploads/2015/11/fondocolores.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 80%;
+    margin-left: 11.5%;
+    margin-top: 5.5%;
+  }
+  .carritoo .carrito .fondo .productos h2 {
+    float: right;
+    margin-right: 3.2%;
+    margin-top: 4%;
+    text-shadow: 1px 1px 2px rgb(194, 145, 250);
+    color: rgb(139, 133, 122);
+  }
+  .carritoo .carrito .fondo .productos ul {
+    padding-top: 15%;
+    padding-right: 2%;
+  }
+  .carritoo .carrito .fondo .productos ul .producto {
+    text-decoration: none;
+    display: flex;
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 10px;
+    background-color: rgb(233, 192, 226);
+    border: double 1px rgb(216, 176, 243);
+  }
+  .carritoo .carrito .fondo .productos ul .producto .imag {
+    margin-left: 15px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .imag img {
+    width: 60%;
+    height: 100%;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .nombre {
+    margin-left: 8%;
+    margin-top: 32.5px;
+    width: 30%;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .nombre h4 {
+    font-size: 12px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .valor {
+    width: 12%;
+    margin-left: 10%;
+    margin-top: 28.7px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .valor p {
+    font-size: 12px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .cantidadAgregada {
+    font-size: 12px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .ekizde {
+    margin: 25px 25px 25px 25px;
+  }
+  .carritoo .carrito .fondo .productos ul .producto .ekizde button {
+    font-size: 30px;
+    background-color: transparent;
+    border: 0px;
+  }
+  .carritoo .carrito .fondo .botones .encuesta__opciones {
+    margin-top: 3%;
+    margin-left: 15%;
+  }
+  .carritoo .carrito .fondo .botones .encuesta__opciones .encuesta {
+    margin: 2%;
+  }
+  .carritoo .carrito .fondo .botones .compra {
+    border-radius: 50px;
+    padding: 12px;
+    background-color: rgb(233, 192, 226);
+    margin-left: 36.2%;
+    margin-top: 5.5%;
+  }
+
+  .iniciarSesionn .titulo {
+    font-size: 25px;
+  }
+  .iniciarSesionn .inicio {
+    width: 70%;
+    height: 500px;
+    margin-top: 50px;
+  }
+  .iniciarSesionn .inicio .inicios {
+    font-size: 15px;
   }
 }
 
