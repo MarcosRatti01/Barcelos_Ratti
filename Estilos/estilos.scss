@@ -63,12 +63,12 @@ body{
 
 // pie  
 .pie{
-    background-image: url(https://imgs.search.brave.com/JoOyPHa1sPPcaId0O3hCQG0WmcrXoR4pE--GhKReWg0/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9jZG4u/aGlwd2FsbHBhcGVy/LmNvbS9pLzcvMzYv/TmlBcFZrLmpwZw);
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=800&h=300);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 185px;
-    .pie__título{
+    .pie__titulo{
         text-shadow: 3px 3px 3px rgb(160, 158, 158);
         padding-top: 30px;
         font-size: 25px;
@@ -466,7 +466,7 @@ $estilos: (
 
     .pie{
         height: 18.2vh;
-        .pie__título{
+        .pie__titulo{
             font-size: 15px;
             margin-bottom: 15px;
         }
@@ -750,7 +750,7 @@ $estilos: (
 
     .pie{
         height: 18.2vh;
-        .pie__título{
+        .pie__titulo{
             font-size: 15px;
             margin-bottom: 15px;
         }
